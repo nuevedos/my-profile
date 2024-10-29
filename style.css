@@ -1,0 +1,200 @@
+/* General styling for the body */
+body {
+    background-color: #eef2f4; /* Light background for better contrast */
+    font-family: 'Roboto', sans-serif; /* Using Google Fonts */
+    color: #333; /* Default text color */
+    line-height: 1.6; /* Improve readability */
+    margin: 0;
+    padding: 0;
+}
+
+/* Centering the container */
+.container {
+    max-width: 800px; /* Maximum width for container */
+    margin: 40px auto; /* Set margins: top/bottom: 40px; left/right: automatic */
+    padding: 0 20px; /* Add padding for small screens */
+}
+
+/* Styling for the white cards */
+.card-white {
+    background-color: #ffffff; /* White background for content */
+    border-radius: 10px; /* Smooth corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    padding: 30px; /* Internal space */
+    margin-bottom: 30px; /* Space between cards */
+    transition: transform 0.3s, box-shadow 0.3s; /* Transition for hover effect */
+}
+
+/* Adding hover effect to the cards */
+.card-white:hover {
+    transform: translateY(-5px); /* Move the card up on hover */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+/* Profile picture styling */
+.profile-pic {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+}
+
+/* Class for circular images */
+.img-circle {
+    border-radius: 50%; /* Make the image round */
+    border: 4px solid #3498db; /* Blue border for the profile picture */
+}
+
+/* Button styling */
+.btn {
+    display: inline-block;
+    padding: 12px 25px; /* Space inside the button */
+    margin-top: 15px; /* Space above the button */
+    background-color: #3498db; /* Button color */
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Round corners */
+    font-weight: 700; /* Bold text */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transition effect */
+}
+
+.btn:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Styling for h1, h2 */
+h1, h2 {
+    color: #2c3e50; /* Dark blue */
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-top: 20px; /* Slightly less space above h2 */
+    border-bottom: 2px solid #3498db; /* Underline effect */
+    padding-bottom: 10px; /* Space below the underline */
+}
+
+/* Styling for paragraphs */
+p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Link styling */
+a {
+    color: #3498db; /* Blue color for links */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth transition effect */
+}
+
+a:hover {
+    color: #e74c3c; /* Red color on hover */
+}
+
+/* Social links styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+/* Inline list styling */
+.list-inline {
+    list-style: none; /* Remove bullet points */
+    padding-left: 0; /* Remove padding */
+}
+
+.list-inline > li {
+    display: inline; /* Change list item behavior to inline */
+    padding: 0 20px; /* Add space between items */
+}
+
+/* Adding hover effect to social media links */
+ul li a {
+    color: #2980b9; /* Blue */
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: #e67e22; /* Orange on hover */
+}
+
+/* Media Queries for responsive design */
+@media (max-width: 960px) {
+    .container {
+        width: 700px; /* Adjusted container width for medium screens */
+    }
+}
+
+@media (max-width: 720px) {
+    .container {
+        width: 500px; /* Adjusted container width for small screens */
+    }
+
+    h1 {
+        font-size: 28px; /* Smaller header for smaller screens */
+    }
+
+    h2 {
+        font-size: 24px; /* Smaller section headers */
+    }
+
+    p {
+        font-size: 16px; /* Smaller paragraph text */
+    }
+
+    .btn {
+        padding: 10px 20px; /* Smaller button padding */
+    }
+}
+
+@media (max-width: 540px) {
+    .container {
+        width: 300px; /* Adjusted container width for very small screens */
+    }
+
+    .profile-pic {
+        width: 120px; /* Smaller profile picture */
+    }
+
+    h1 {
+        font-size: 24px; /* Even smaller header */
+    }
+
+    h2 {
+        font-size: 20px; /* Smaller section headers */
+    }
+
+    p {
+        font-size: 14px; /* Smaller paragraph text */
+    }
+
+    .btn {
+        padding: 8px 15px; /* Smaller button padding */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
